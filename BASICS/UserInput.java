@@ -20,5 +20,7 @@ public class UserInput {
         System.out.println("Age : "+ age);
         System.out.println("Weight : "+weight);
         // similarly we can use different method to accept different type of data like boolean, byte, double, etc..
+        // at the end of program, it is good practice to close scanner class object
+        sc.close();
     }
 }
