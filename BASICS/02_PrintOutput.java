@@ -1,4 +1,4 @@
-public class PrintOutput {
+class PrintOutput {
     public static void main(String[] args) {
         // the difference between print and println method is that println function add extra line break at the end, while print function dosen't
         System.out.print("No Line Break After Me");

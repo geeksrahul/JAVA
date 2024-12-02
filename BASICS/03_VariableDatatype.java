@@ -1,4 +1,4 @@
-public class VariableDatatype {
+class VariableDatatype {
     public static void main(String[] args) {
         // variable is a container that holds the data.
         // each variable have unique name 

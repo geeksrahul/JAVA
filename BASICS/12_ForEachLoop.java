@@ -1,4 +1,4 @@
-public class ForEachLoop {
+class ForEachLoop {
     public static void main(String[] args) {
         int[] arr;
         arr = new int[3];

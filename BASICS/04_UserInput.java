@@ -1,6 +1,6 @@
 // importing Scanner class from java utility.
 import java.util.Scanner;
-public class UserInput {
+class UserInput {
     public static void main(String[] args) {
         // creating instance of Scanner class,
         // it takes System.in as parameter in constructor
