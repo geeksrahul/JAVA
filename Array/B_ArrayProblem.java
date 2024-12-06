@@ -16,7 +16,7 @@ public class B_ArrayProblem {
         }
         System.out.println();
     }
-    // method to find sum of array
+    // 1) method to find sum of array
     public static int sumOfArray(int[] array) {
         int sum = 0;
         for(int i=0; i<array.length; i++) {
@@ -24,12 +24,12 @@ public class B_ArrayProblem {
         }
         return sum;
     }
-    // method to find average of array
+    // 2) method to find average of array
     public static float avgOfArray(int[] array) {
         float average = (float) sumOfArray(array) / array.length;
         return average;
     }
-    // reverse array
+    // 3) method to reverse array
     public static void reverseArray(int[] array){
         int temp;
         for(int i=0,j=array.length - 1; i<j; i++,j--) {
@@ -38,7 +38,7 @@ public class B_ArrayProblem {
             array[j] = temp;
         }
     }
-    // find maximum element
+    // 4) find maximum element
     public static int getMaximum(int[] array) {
         int max = array[0];
         for(int i=1; i<array.length; i++) {
@@ -48,7 +48,7 @@ public class B_ArrayProblem {
         }
         return max;
     }
-    // find minimum element
+    // 5) find minimum element
     public static int getMinimum(int[] array) {
         int min = array[0];
         for(int i=1; i<array.length; i++) {
@@ -58,7 +58,7 @@ public class B_ArrayProblem {
         }
         return min;
     }
-    // linear search in array
+    // 6) linear search in array
     public static int search(int[] array, int search) {
         for(int i=0; i<array.length; i++) {
             if(array[i] == search) {
@@ -67,7 +67,7 @@ public class B_ArrayProblem {
         }
         return -1;
     }
-    // count occurence 
+    // 7) count occurence 
     public static int countOccurence(int[] array, int search) {
         int count = 0;
         for(int i=0; i<array.length; i++) {
@@ -77,6 +77,7 @@ public class B_ArrayProblem {
         }
         return count;
     }
+    // main method
     public static void main(String[] args) {
         System.out.print("Enter Length Of Array : ");
         int length = sc.nextInt();
