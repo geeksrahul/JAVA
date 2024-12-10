@@ -18,7 +18,12 @@ public class p21_VarArgs {
         }
         return sum;
     }
+    public static void greet(String ...peoples) {
+        for (String person : peoples) {
+            System.out.println(person);
+        }
+    }
     public static void main(String[] args) {
-        System.out.println(calculateSum(1,10,20,30));
+        greet();
     }
 }
